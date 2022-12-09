@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.trashaim.client.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinMinecraft",
+    "PositionPacketMixin",
+    "PositionFullPacketMixin",
+    "MixinNetworkHandler",
+    "MixinUI",
+    "MixinBlockRenderer",
+    "MixinBlockRenderExtends",
+    "MixinVehicleMove",
+    "MixinClientHandler",
+    "MixinGameRenderer",
+    "MixinEntity",
+    "MixinClientPlayerInteractionManager"
+  ],
+  "client": [
+    
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
